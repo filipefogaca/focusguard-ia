@@ -79,7 +79,7 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 2. **Treinar o modelo (necessário ter o dataset organizado):**
 =======
 2. **Treinar o modelo (opcional se já possuir o .h5):**
->>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
+
    ```bash
    python train_model.py
    ```
