@@ -49,8 +49,6 @@ focusguard_ai/
 ```
 
 ---
-
-<<<<<<< HEAD
 ## 📊 Dataset
 Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original não está incluído neste repositório. O modelo foi treinado utilizando o **MRL Eye Dataset**, um dos conjuntos de dados mais robustos para detecção de estado ocular.
 
