@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+.env/
+
+# Dados e Modelos (Arquivos grandes)
+dataset/data/
+models/*.h5
+static/training_results.png
