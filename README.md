@@ -70,7 +70,6 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 ---
 
 =======
->>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
 ## ⚙️ Como Instalar e Rodar
 
 1. **Clonar o repositório e instalar dependências:**
