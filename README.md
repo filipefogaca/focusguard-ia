@@ -75,9 +75,9 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
    pip install -r requirements.txt
    ```
 
-<<<<<<< HEAD
+
 2. **Treinar o modelo (necessário ter o dataset organizado):**
-=======
+
 2. **Treinar o modelo (opcional se já possuir o .h5):**
 
    ```bash
@@ -104,11 +104,7 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 
 ## 👤 Autor
 **Filipe Fogaça**  
-<<<<<<< HEAD
-**Rafael Rabelo**
-=======
 
 **Rafael Rabelo**
 
->>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
 **Gabriel Lana**
