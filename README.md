@@ -39,10 +39,28 @@ focusguard_ai/
 ├── models/
 │   └── eye_model.h5       # Modelo de Deep Learning treinado
 ├── dataset/
-│   └── data/              # Base de imagens (awake/sleepy)
+│   └── data/              # Base de imagens (awake/sleepy) - Ver seção Dataset
 └── static/
     └── training_results.png # Gráficos de desempenho do modelo
 ```
+
+---
+
+## 📊 Dataset
+Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original não está incluído neste repositório. O modelo foi treinado utilizando o **MRL Eye Dataset**, um dos conjuntos de dados mais robustos para detecção de estado ocular.
+
+### Como obter o dataset:
+1. Faça o download oficial em: [MRL Eye Dataset (Kaggle)](https://www.kaggle.com/datasets/akashshingha850/mrl-eye-dataset) ou no [site oficial da MRL](https://mrl.cs.vsb.cz/eyedataset.html).
+2. Organize os arquivos na seguinte estrutura para o treinamento:
+   ```
+   dataset/data/
+   ├── train/
+   │   ├── awake/
+   │   └── sleepy/
+   └── val/
+       ├── awake/
+       └── sleepy/
+   ```
 
 ---
 
@@ -53,7 +71,7 @@ focusguard_ai/
    pip install -r requirements.txt
    ```
 
-2. **Treinar o modelo (opcional se já possuir o .h5):**
+2. **Treinar o modelo (necessário ter o dataset organizado):**
    ```bash
    python train_model.py
    ```
@@ -79,4 +97,4 @@ focusguard_ai/
 ## 👤 Autor
 **Filipe Fogaça**  
 **Rafael Rabelo**
-**Gabriel Lana*
+**Gabriel Lana**
