@@ -39,13 +39,18 @@ focusguard_ai/
 ├── models/
 │   └── eye_model.h5       # Modelo de Deep Learning treinado
 ├── dataset/
+<<<<<<< HEAD
 │   └── data/              # Base de imagens (awake/sleepy) - Ver seção Dataset
+=======
+│   └── data/              # Base de imagens (awake/sleepy)
+>>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
 └── static/
     └── training_results.png # Gráficos de desempenho do modelo
 ```
 
 ---
 
+<<<<<<< HEAD
 ## 📊 Dataset
 Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original não está incluído neste repositório. O modelo foi treinado utilizando o **MRL Eye Dataset**, um dos conjuntos de dados mais robustos para detecção de estado ocular.
 
@@ -64,6 +69,8 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 
 ---
 
+=======
+>>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
 ## ⚙️ Como Instalar e Rodar
 
 1. **Clonar o repositório e instalar dependências:**
@@ -71,7 +78,11 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
    pip install -r requirements.txt
    ```
 
+<<<<<<< HEAD
 2. **Treinar o modelo (necessário ter o dataset organizado):**
+=======
+2. **Treinar o modelo (opcional se já possuir o .h5):**
+>>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
    ```bash
    python train_model.py
    ```
@@ -96,5 +107,11 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 
 ## 👤 Autor
 **Filipe Fogaça**  
+<<<<<<< HEAD
 **Rafael Rabelo**
+=======
+
+**Rafael Rabelo**
+
+>>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
 **Gabriel Lana**
