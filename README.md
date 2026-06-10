@@ -78,5 +78,7 @@ focusguard_ai/
 
 ## 👤 Autor
 **Filipe Fogaça**  
+
 **Rafael Rabelo**
+
 **Gabriel Lana**
