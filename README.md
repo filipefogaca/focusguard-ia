@@ -39,11 +39,9 @@ focusguard_ai/
 ├── models/
 │   └── eye_model.h5       # Modelo de Deep Learning treinado
 ├── dataset/
-<<<<<<< HEAD
 │   └── data/              # Base de imagens (awake/sleepy) - Ver seção Dataset
 =======
 │   └── data/              # Base de imagens (awake/sleepy)
->>>>>>> 8faae4036af00995d84f68735172af60ef2d25b2
 └── static/
     └── training_results.png # Gráficos de desempenho do modelo
 ```
