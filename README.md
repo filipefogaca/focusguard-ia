@@ -103,6 +103,3 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 ## 👤 Autor
 **Filipe Fogaça**  
 
-**Rafael Rabelo**
-
-**Gabriel Lana**
