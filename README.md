@@ -105,4 +105,4 @@ Para visualizar a interface do FocusGuard AI em ação, consulte a imagem abaixo
 ![Interface do FocusGuard AI](img.png)
 
 ## Autor
-**Filipe Fogaça**
+**Filipe Fogaça** 
