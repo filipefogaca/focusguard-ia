@@ -65,7 +65,7 @@ def load_trained_model():
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
-st.title("👁️ FocusGuard AI")
+st.title("FocusGuard AI")
 st.subheader("Detector Preventivo de Sonolência (Métrica PERCLOS)")
 
 col1, col2 = st.columns([2, 1])
@@ -165,11 +165,11 @@ while run:
             st.session_state.alerts_count += 1
             st.session_state.last_alert_time = current_time
     
-    elif perclos_value > 0.40: # Limiar de fadiga ajustado para 40%
+    elif perclos_value > 0.55: # Limiar de fadiga ajustado para 40%
         status_html = '<div class="status-card fadiga">🟡 FADIGA DETECTADA</div>'
         msg = "Atenção: Você está demonstrando sinais de cansaço. Vai tomar um café?"
         
-        if current_time - st.session_state.last_alert_time > 30:
+        if current_time - st.session_state.last_alert_time > 15:
             speak("Sinais de cansaço detectados. Faça uma pausa.")
             st.session_state.last_alert_time = current_time
     
