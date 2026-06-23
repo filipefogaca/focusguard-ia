@@ -1,6 +1,6 @@
 # FocusGuard AI – Monitoramento Preventivo de Fadiga via Visão Computacional
 
-## 👁️ Sobre o Projeto
+##  Sobre o Projeto
 O **FocusGuard AI** é um ecossistema de software focado em privacidade (**Edge Computing**) que utiliza Inteligência Artificial para monitorar, quantificar e mitigar a fadiga humana em tempo real. Diferente de sistemas reativos comuns, o FocusGuard atua de forma **preventiva**, utilizando a métrica internacional **PERCLOS** (Percentage of Eye Closure) para identificar sinais de exaustão antes mesmo da ocorrência de micro-sonos ou falhas de atenção.
 
 O sistema foi projetado para ser flexível, atendendo a três cenários críticos:
@@ -10,7 +10,7 @@ O sistema foi projetado para ser flexível, atendendo a três cenários crítico
 
 ---
 
-## 🚀 Diferenciais Técnicos
+##  Diferenciais Técnicos
 - **Métrica PERCLOS:** Análise temporal da abertura ocular para detecção de fadiga acumulada.
 - **Prevenção Antecipada:** Alertas emitidos em níveis (Atenção vs. Crítico).
 - **Execução em Background:** Notificações push nativas que funcionam mesmo se o navegador estiver em segundo plano.
@@ -18,7 +18,7 @@ O sistema foi projetado para ser flexível, atendendo a três cenários crítico
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - **Python**: Linguagem base do ecossistema.
 - **TensorFlow / Keras**: Criação e execução da Rede Neural Convolucional (CNN).
 - **OpenCV**: Captura de vídeo e processamento de imagens em tempo real.
@@ -47,7 +47,7 @@ focusguard_ai/
 ```
 
 ---
-## 📊 Dataset
+##  Dataset
 Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original não está incluído neste repositório. O modelo foi treinado utilizando o **MRL Eye Dataset**, um dos conjuntos de dados mais robustos para detecção de estado ocular.
 
 ### Como obter o dataset:
@@ -66,7 +66,7 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 ---
 
 =======
-## ⚙️ Como Instalar e Rodar
+##  Como Instalar e Rodar
 
 1. **Clonar o repositório e instalar dependências:**
    ```bash
@@ -89,7 +89,7 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 
 ---
 
-## 🧠 Funcionamento e Lógica
+##  Funcionamento e Lógica
 1. **Captura:** A webcam monitora o rosto do usuário via OpenCV.
 2. **Segmentação:** O sistema isola a região dos olhos utilizando classificadores estruturais.
 3. **Classificação (CNN):** Cada frame é analisado pela Rede Neural para determinar o estado ocular.
@@ -100,6 +100,6 @@ Devido ao grande volume de dados (mais de 80.000 imagens), o dataset original n�
 
 ---
 
-## 👤 Autor
+## Autor
 **Filipe Fogaça**  
 
