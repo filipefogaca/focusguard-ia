@@ -165,7 +165,7 @@ while run:
             st.session_state.alerts_count += 1
             st.session_state.last_alert_time = current_time
     
-    elif perclos_value > 0.55: # Limiar de fadiga ajustado para 40%
+    elif perclos_value > 0.55: # Limiar de fadiga ajustado para 55%
         status_html = '<div class="status-card fadiga">🟡 FADIGA DETECTADA</div>'
         msg = "Atenção: Você está demonstrando sinais de cansaço. Vai tomar um café?"
         
