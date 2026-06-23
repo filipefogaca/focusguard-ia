@@ -167,7 +167,7 @@ while run:
     
     elif perclos_value > 0.40: # Limiar de fadiga ajustado para 40%
         status_html = '<div class="status-card fadiga">🟡 FADIGA DETECTADA</div>'
-        msg = "Atenção: Você está demonstrando sinais de cansaço. Que tal uma pausa?"
+        msg = "Atenção: Você está demonstrando sinais de cansaço. Vai tomar um café?"
         
         if current_time - st.session_state.last_alert_time > 30:
             speak("Sinais de cansaço detectados. Faça uma pausa.")
